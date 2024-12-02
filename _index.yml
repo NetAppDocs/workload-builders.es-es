@@ -1,0 +1,28 @@
+---
+indexpage:
+  title: Documentación de la fábrica de cargas de trabajo de BlueXP  para creadores
+  lead: Cree y gestione proyectos de desarrollo de software sobre el almacenamiento
+    del sistema de archivos FSx para ONTAP en la fábrica de cargas de trabajo de BlueXP .
+  tiles:
+  - title: Manos a la obra
+    links:
+    - title: Notas de la versión
+      url: "/whats-new.html"
+    - title: Aprende sobre Builders
+      url: "/learn-builders.html"
+    - title: Inicio rápido
+      url: "/quick-start-builders.html"
+  - title: Utilizar creadores
+    links:
+    - title: Gestionar proyectos
+      url: "/manage-projects.html"
+    - title: Cree un espacio de trabajo
+      url: "/create-workspaces.html"
+    - title: Automatice con CodeBox
+      url: "/automate-codebox.html"
+  - title: Conocimiento y apoyo
+    links:
+    - title: Regístrese para recibir soporte
+      url: "/support-registration.html"
+    - title: Obtenga ayuda
+      url: "/get-help-builders.html"

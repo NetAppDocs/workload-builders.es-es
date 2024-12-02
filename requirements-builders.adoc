@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: requirements-builders.html 
+keywords: Builders, FSx, project, projects 
+summary: Asegúrese de que la fábrica de cargas de trabajo y AWS se han configurado correctamente antes de empezar a utilizar la fábrica de cargas de trabajo de BlueXP  para creadores. Esto incluye tener sus credenciales de inicio de sesión de AWS, un sistema de archivos FSx para ONTAP implementado y mucho más. 
+---
+= Requisitos de los constructores
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Asegúrese de que la fábrica de cargas de trabajo y AWS se han configurado correctamente antes de empezar a utilizar la fábrica de cargas de trabajo de BlueXP  para creadores. Esto incluye tener sus credenciales de inicio de sesión de AWS, un sistema de archivos FSx para ONTAP implementado y mucho más.
+
+Inicio de sesión y cuenta de fábrica de carga de trabajo:: Deberá https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["configure una cuenta con fábrica de cargas de trabajo"^] iniciar sesión con uno de los https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
+Credenciales y permisos de AWS:: Es necesario agregar credenciales de AWS a la fábrica de cargas de trabajo con permisos Automate, lo que significa que utilizará la fábrica de cargas de trabajo en el modo _Automate_ para Builders.
+
+
+Los permisos de modo _Basic_ y modo _Read_ no se admiten en este momento. https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Aprenda a añadir credenciales de AWS a la fábrica de cargas de trabajo"^]
+
+FSX para sistema de archivos ONTAP:: Necesita un mínimo de un sistema de archivos FSx para ONTAP:
++
+--
+* Los creadores utilizarán el sistema de archivos para almacenar los proyectos y espacios de trabajo que cree.
++
+Este sistema de archivos FSx para ONTAP debe utilizar volúmenes de FlexVol. No se admiten los volúmenes de FlexGroup.
+
+* Necesitará conocer la región, la VPC y la subred de AWS donde reside el sistema de archivos AWS FSx para ONTAP.
+* Necesitará al menos un volumen en el sistema de archivos con la siguiente configuración:
++
+** El volumen debe configurarse como un recurso compartido NFS.
+** El sistema de archivos se debe configurar con un enlace. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Obtenga más información sobre los enlaces"^].
+
+
+* Tendrá que considerar los pares clave/valor de etiqueta que desea aplicar a los recursos de AWS que forman parte de esta implementación (opcional).
++
+https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["Descubre cómo implementar y gestionar sistemas de archivos FSx para ONTAP"^]
+
+
+
+--
+

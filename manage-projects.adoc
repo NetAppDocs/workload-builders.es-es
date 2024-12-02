@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: manage-projects.html 
+keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage 
+summary: Gestione instancias de Microsoft SQL Server en la fábrica de cargas de trabajo para bases de datos. 
+---
+= Gestionar proyectos de Builders
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede administrar proyectos de creadores para controlar cómo se administran el código y los artefactos para cada proyecto en la fábrica de cargas de trabajo de BlueXP  para creadores.
+
+
+
+== Cree un proyecto
+
+Puedes crear un nuevo proyecto de Builders para que puedas aprovechar las funciones de protección de datos de tu sistema de archivos de Amazon FSx for NetApp ONTAP para tu código y artefactos.
+
+.Pasos
+. Inicie sesión en la fábrica de carga de trabajo mediante una de las opciones link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
+. En el mosaico Builders, selecciona *Crear proyecto*.
+. En la página Crear proyecto, proporcione lo siguiente:
++
+.. *Nombre del proyecto*: Introduzca un nombre para el proyecto.
+.. *Descripción*: Introduzca una descripción para el proyecto.
+.. *Sistema de archivos*: Proporcionar lo siguiente:
++
+... *Credenciales*: Seleccione las credenciales de Amazon AWS que desea utilizar. Builders utiliza estas credenciales para descubrir los sistemas de archivos FSX for ONTAP que puedes usar con este proyecto y para crear clones e instantáneas de proyectos.
+... *Región*: Seleccione la región en la que reside este sistema de archivos FSX for ONTAP.
+... *FSX para sistema de archivos ONTAP*: Seleccione un sistema de archivos FSX for ONTAP para usar con este proyecto.
++
+Solo puede seleccionar sistemas de archivos configurados con un enlace. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Obtenga más información sobre los enlaces"^].
+
+... *Elige un volumen*: Selecciona un volumen en el que almacenar el proyecto; Builders utiliza este volumen como repositorio de software.
++
+Solo puede seleccionar los volúmenes que se hayan configurado como recurso compartido NFS.
+
+
+
+.. *Políticas de operación*: Proporcionar límites para los clones de proyectos:
++
+... *Retención máxima en días*: Introduzca el número máximo de días que se debe retener un clon. Después de esta cantidad de días, la fábrica de cargas de trabajo quita el clon.
+... *Número máximo de clones por usuario o grupo*: Introduzca el número máximo de clones que se pueden aprovisionar para un usuario o grupo.
+... *Tamaño máximo del clon en GiB*: Introduzca el tamaño máximo en GiB de un clon de proyecto.
+
+
+.. *Políticas de acceso*: Conceder explícitamente acceso al proyecto a usuarios o grupos específicos:
++
+... *Ámbito de aplicación de políticas*: Introduzca direcciones IP únicas o rangos de direcciones IP para limitar el acceso al proyecto solo a esas direcciones o rangos IP.
++
+Por ejemplo: `172.16.0.0/24`
+
+... *Identificadores de usuario o grupo*: Introduzca identificadores de usuario o grupo para limitar el acceso al proyecto solo a esos usuarios o grupos.
++
+Por ejemplo: `User1234`
+
+
+
+
+
+. Seleccione *Crear*.
+
+
+.Resultado
+El proyecto se crea y aparece en la lista de proyectos de la página Proyectos.
+
+
+
+== Ver proyectos existentes
+
+Puede ver los proyectos existentes creados en la fábrica de cargas de trabajo de BlueXP  para creadores siguiendo estos pasos.
+
+.Pasos
+. Inicie sesión en la fábrica de carga de trabajo mediante una de las opciones link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
+. En el mosaico Builders, selecciona *Ir a la página Proyectos*.
+. Vea los proyectos existentes que aparecen en la página Proyectos.
+
+
+
+
+== Editar un proyecto
+
+Puede editar la configuración de un proyecto en cualquier momento.
+
+.Pasos
+. Inicie sesión en la fábrica de carga de trabajo mediante una de las opciones link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
+. En el mosaico Builders, selecciona *Ir a la página Proyectos*.
+. En la página Proyectos, seleccione image:icon-action.png["el botón de opción"] el proyecto que desea editar.
+. Realice los cambios necesarios en la configuración del proyecto.
+. Seleccione *Guardar*.
+
+
+.Pasos
+. Inicie sesión en la fábrica de carga de trabajo mediante una de las opciones link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
+. En el mosaico Builders, selecciona *Ir a la página Proyectos*.
+. En la página Proyectos, seleccione image:icon-action.png["el botón de opción"] el proyecto que desea realizar la instantánea.
+. En el menú que aparece, seleccione *Crear una instantánea*.
+. En el cuadro de diálogo *Crear instantánea*, elija un nombre para la instantánea y seleccione *Crear*.
+
+
+
+
+== Ver los espacios de trabajo de un proyecto
+
+Un clon o instantánea de un proyecto se conoce como espacio de trabajo. Al crear un espacio de trabajo, se conserva durante el tiempo que la política de operaciones del proyecto lo permita. Puede ver los espacios de trabajo existentes para un proyecto siguiendo estos pasos.
+
+.Pasos
+. Inicie sesión en la fábrica de carga de trabajo mediante una de las opciones link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
+. En el mosaico Builders, selecciona *Ir a la página Proyectos*.
+. En la página Proyectos, elige un proyecto y selecciona *Ver*.
+. Ver el estado y los detalles de todos los espacios de trabajo de este proyecto.
+. Si ve alertas o advertencias para un espacio de trabajo, pase el ratón sobre el icono de alerta o advertencia para ver el motivo.
+
+
+
+
+== Eliminar un proyecto
+
+Puede eliminar un proyecto cuando ya no lo necesite siguiendo estos pasos.
+
+.Pasos
+. Inicie sesión en la fábrica de carga de trabajo mediante una de las opciones link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
+. En el mosaico Builders, selecciona *Ir a la página Proyectos*.
+. En la página Proyectos, seleccione image:icon-action.png["el botón de opción"] el proyecto que desea suprimir.
+. Seleccione *Eliminar*.
+. En el cuadro de diálogo de confirmación, seleccione *Eliminar*.
+
+
+.Resultado
+El proyecto se elimina y cualquier código o artefacto asociado con el proyecto se elimina del volumen. Se conservan las copias Snapshot y los clones del proyecto.

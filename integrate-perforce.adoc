@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: integrate-perforce.html 
+keywords: software builders, integrate, integration, Perforce 
+summary: Aprenda a integrar Builders con Perforce. 
+---
+= Integración de creadores con Perforce
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Integre Builders con Perforce Helix Visual Client (P4V) para que los desarrolladores puedan gestionar sus espacios de trabajo mediante la CLI de Perforce. De este modo, los desarrolladores pueden cambiar rápidamente entre proyectos y espacios de trabajo, lo que ahorra tiempo durante el desarrollo.
+
+.Pasos
+. Descargue el https://builders.console.workloads.netapp.com/p4v["Archivo de integración P4V"^].
+. Abra P4V y vaya a *Herramientas* > *Administrar herramientas* > *Pestañas HTML*.
+. Seleccione *Importar pestañas HTML*.
+. Seleccione el archivo XML de integración P4V y seleccione *Importar*.
+. Vaya a *Ver* > *Fábrica de carga de trabajo*.
+
+
+.Resultado
+La interfaz de usuario web de la fábrica de cargas de trabajo de BlueXP  para creadores aparece como una pestaña HTML en el cliente P4V.
+
+.El futuro
+link:manage-projects.html["Cree un plan de implementación de Amazon EC2 con el asesor de migración"].

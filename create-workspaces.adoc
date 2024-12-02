@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: create-workspaces.html 
+keywords: manage, workspace, snapshot, project 
+summary: Un espacio de trabajo en la fábrica de cargas de trabajo de BlueXP  para creadores es una representación de Perforce de un proyecto que se basa en una instantánea de proyecto. Puede crear espacios de trabajo como parte de un proyecto Builders. 
+---
+= Cree un espacio de trabajo
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+[role="lead"]
+Un espacio de trabajo en la fábrica de cargas de trabajo de BlueXP  para constructores es una representación de Perforce de un proyecto en un momento específico en el tiempo. Los espacios de trabajo se crean utilizando una instantánea de proyecto como base. Puede crear nuevos espacios de trabajo dentro de un proyecto Builders. Puede crear espacios de trabajo desde la interfaz de usuario de Perforce.
+
+.Antes de empezar
+Asegúrese de que tiene Builders integrados con el cliente visual Perforce Helix. Consulte link:integrate-perforce.html["Integración de creadores con Perforce"^] para obtener más información.
+
+.Pasos
+. Inicie sesión en Perforce.
+. En el menú Perforce, seleccione *View* > *WF*.
++
+La pantalla de inicio de sesión de fábrica de cargas de trabajo aparece en la interfaz de usuario de Perforce.
+
+. Inicie sesión en la fábrica de carga de trabajo mediante una de las opciones link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
+. Selecciona *Crear espacio de trabajo*.
+. En la página Crear un proyecto de espacio de trabajo, proporcione lo siguiente:
++
+.. Seleccione una instantánea para utilizarla como base para el espacio de trabajo.
+.. Introduzca un nombre para el espacio de trabajo.
+.. Si lo desea, introduzca un identificador de usuario para reclamar el espacio de trabajo. Este identificador debe coincidir con el ID de usuario Perforce del desarrollador que utilizará este espacio de trabajo.
+
+
+. Seleccione *Crear*.
+
+
+.Resultado
+El espacio de trabajo se crea y aparece en la lista de espacios de trabajo de la página Espacios de trabajo.
