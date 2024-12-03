@@ -4,7 +4,7 @@ permalink: create-workspaces.html
 keywords: manage, workspace, snapshot, project 
 summary: Un espacio de trabajo en la fábrica de cargas de trabajo de BlueXP  para creadores es una representación de Perforce de un proyecto que se basa en una instantánea de proyecto. Puede crear espacios de trabajo como parte de un proyecto Builders. 
 ---
-= Cree un espacio de trabajo
+= Cree un espacio de trabajo Builders
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

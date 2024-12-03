@@ -4,7 +4,7 @@ permalink: known-limitations.html
 keywords: limitations, builders 
 summary: Las limitaciones conocidas identifican plataformas, dispositivos o funciones que no son compatibles con esta versión del producto o cuya interoperabilidad con esta no es óptima. Revise estas limitaciones detenidamente. 
 ---
-= Limitaciones conocidas
+= Limitaciones conocidas de la fábrica de cargas de trabajo de BlueXP  para creadores
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

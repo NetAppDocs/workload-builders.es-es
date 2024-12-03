@@ -4,7 +4,7 @@ permalink: automate-codebox.html
 keywords: automation, code automation, automate 
 summary: Puede automatizar la implementación de host, la creación de bases de datos y mucho más con CodeBox. 
 ---
-= Automatice con CodeBox
+= Automatice las tareas de los creadores con CodeBox
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

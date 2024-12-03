@@ -281,26 +281,6 @@
   <block id="1f44141a0f383810dac8c932e0d76754" category="list-text">Tendrá que considerar los pares clave/valor de etiqueta que desea aplicar a los recursos de AWS que forman parte de esta implementación (opcional).</block>
   <block id="d5858b81edfda50f75f7994c971764f0" category="inline-link">Descubre cómo implementar y gestionar sistemas de archivos FSx para ONTAP</block>
   <block id="7d57ea8255b8142e76fbb442ea9a782f" category="paragraph"><block ref="7d57ea8255b8142e76fbb442ea9a782f" category="inline-link-rx"></block></block>
-  <block id="284b0f618c1cefab43ce3a83c106ac42" category="summary">Revierte un clon de sandbox en la fábrica de cargas de trabajo para bases de datos.</block>
-  <block id="ba981915546be1bb9a1a5f34021cb317" category="doc">Revierte un clon de sandbox en la fábrica de cargas de trabajo para bases de datos</block>
-  <block id="119092644393b63350941f731f4e02dd" category="paragraph">Revierte un clon de base de datos a su versión original en el momento de la creación.</block>
-  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">Acerca de esta tarea</block>
-  <block id="36bfe5aa9dbfbad068e6721ddea626bb" category="paragraph">Cuando se clona una base de datos, el clon que se creó es un clon _baseline_. Los datos de la base de datos clonada son los mismos que los de la base de datos de origen en el momento de la creación. A medida que los datos del clon de una base de datos de un recuadro de pruebas cambian con el tiempo, tal vez desee revertir los datos de nuevo a la línea de base cuando el clon se creó por primera vez. Esta operación se denomina volver a establecer la base de referencia de un clon. Volver a establecer la base de referencia de un clon en lugar de crear un clon nuevo ahorra espacio; sin embargo, se eliminará cualquier cambio realizado al clon de sandbox.</block>
-  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">consola de fábrica de carga de trabajo</block>
-  <block id="2e600fc81eb21acd31aa44d1697dc84f" category="list-text">Inicie sesión en el <block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>.</block>
-  <block id="a22aeb541c430c47c35bcc20690ea51a" category="list-text">En el mosaico Bases de datos, seleccione *Ir a Inventario de Bases de Datos*.</block>
-  <block id="a1029809e498e81eaada752a6b08cd7c" category="list-text">En las bases de datos, seleccione la pestaña *sandboxes*.</block>
-  <block id="e25b967c54d3008b230ffd4e18be90cb" category="list-text">En la pestaña sandboxes, haz clic en el menú de tres puntos del clon del sandbox que quieras revertir.</block>
-  <block id="0975db7a2f5f2be54dab36d8b76af890" category="list-text">Seleccione *Re-baseline*.</block>
-  <block id="ee39d3157a6b84476b1e530c43e7e0af" category="list-text">En el cuadro de diálogo Volver a establecer la base, haga clic en *Volver a establecer la base*.</block>
-  <block id="60662f13dd467742de00d5852483a73d" category="summary">Divida un clon de sandbox de la base de datos de origen para crear una nueva base de datos.</block>
-  <block id="5697f3fa0c3bfd3435b1268d395d044b" category="doc">Dividir un clon de sandbox desde la base de datos de origen</block>
-  <block id="7e63ac86d460cf0995a5ac132e4c8092" category="paragraph">Al dividir un clon de espacio aislado de la base de datos de origen se crea una nueva base de datos que consume una cierta cantidad de capacidad de almacenamiento. El clon se elimina cuando se completa la división y la nueva base de datos aparece en el inventario.</block>
-  <block id="bad5772919d73bf3b17433524b58ead6" category="inline-link-macro">aumente la capacidad del sistema de archivos</block>
-  <block id="eed30e1e95c32e95da513640e3e7e215" category="paragraph">Considere la capacidad de almacenamiento que se necesita para la nueva base de datos. Si es necesario, <block ref="ecf193ca0846a4137269dac878e92281" category="inline-link-macro-rx"></block> para el sistema de archivos FSx para ONTAP antes de empezar.</block>
-  <block id="be0c57159940db106da8c592b3a6f1a7" category="list-text">En la pestaña sandboxes, haz clic en el menú de tres puntos del clon del sandbox que quieras dividir.</block>
-  <block id="54e2c4dd2b9e992b761540f131754e81" category="list-text">Selecciona *Split*.</block>
-  <block id="05b751f4cbd4ae2611783e6ab193a961" category="list-text">En el cuadro de diálogo Dividir, haga clic en *Dividir*.</block>
   <block id="056634bec4a153903ebb9b769277f4d7" category="summary">Antes de poder abrir un caso de soporte con el soporte técnico de NetApp, debe añadir una cuenta del sitio de soporte de NetApp a la fábrica de carga de trabajo y, a continuación, registrarse para recibir soporte.</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Regístrese para recibir soporte</block>
   <block id="996ad73a480311d4f86d6946935389d2" category="paragraph">Se requiere el registro de soporte para recibir soporte técnico específico para Workload Factory y sus soluciones y servicios de almacenamiento. Tienes que registrarte para recibir soporte de la consola BlueXP, que es una consola web independiente de Workload Factory.</block>
@@ -344,7 +324,6 @@
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp debería ponerse en contacto con usted durante este proceso. Este es un ejercicio de incorporación puntual para nuevos usuarios.</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">Una vez que tengas tu cuenta en el sitio de soporte de NetApp, asocia la cuenta con el inicio de sesión de BlueXP completando los pasos que se muestran en <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>.</block>
   <block id="b695d69d992cf41ed6cb2eae330d2d9a" category="summary">Descubra las novedades de la fábrica de cargas de trabajo para bases de datos.</block>
-  <block id="490414e0366b091220802d406e52c076" category="doc">Lo nuevo</block>
   <block id="b3c5650c2bbe2cf7e9b39aa77519169b" category="paragraph">Descubra las novedades con la capacidad de Builders de la fábrica de cargas de trabajo.</block>
   <block id="5c8df45cbe01191b205c30373b7e5739" category="section-title">1 de diciembre de 2024</block>
   <block id="77ecc188e3683ff647e9350cea980265" category="sidebar">Cree y gestione proyectos de desarrollo de software sobre el almacenamiento del sistema de archivos FSx para ONTAP en la fábrica de cargas de trabajo de BlueXP .</block>
@@ -360,4 +339,11 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novedades</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="sidebar">Requisitos</block>
   <block id="b3484ff5a2e6115fc61edc79c83f8c4c" category="sidebar">Use cargas de trabajo de creadores</block>
+  <block id="eea1c8722623804ecbfedb5877fe1fe0" category="doc">Automatice las tareas de los creadores con CodeBox</block>
+  <block id="d9c7cb0c1a45fbc72de246fdddd7728b" category="doc">Cree un espacio de trabajo Builders</block>
+  <block id="15db2e3e50e69780a1a62157fd7d29fa" category="doc">Obtenga ayuda con Builders</block>
+  <block id="811bf57d4ae533110508a5fcc7be0276" category="doc">Limitaciones conocidas de la fábrica de cargas de trabajo de BlueXP  para creadores</block>
+  <block id="827e97c0eb67d11c51fdab3d7de7cc47" category="doc">Avisos legales para la fábrica de cargas de trabajo de BlueXP  para constructores</block>
+  <block id="f326a729fb5b859cb51ee1e03ade5a34" category="doc">Regístrese para obtener soporte para la fábrica de cargas de trabajo de BlueXP  para creadores</block>
+  <block id="4f2bbf87005596e383f28ae211c4bd94" category="doc">Novedades de la fábrica de cargas de trabajo de BlueXP  para creadores</block>
 </blocks>
