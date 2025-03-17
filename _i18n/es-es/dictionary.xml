@@ -346,4 +346,8 @@
   <block id="e13a5649dfef3a1c76c4be8e463226d7" category="list-text">En la parte superior derecha de la consola de fábrica de carga de trabajo, seleccione *Ayuda &gt; Soporte*.</block>
   <block id="ce638fcfafd4d79a49524062225d7fbc" category="paragraph">Se requiere registrar el soporte para recibir soporte técnico específico del centro de cargas de trabajo de BlueXP  y sus soluciones y servicios de almacenamiento. Debe registrarse para obtener soporte de la consola BlueXP , que es una consola web independiente de la fábrica de cargas de trabajo.</block>
   <block id="2cbcc262b0a39ec19c5f69bffccb70fb" category="paragraph">Al registrarse para recibir soporte, no se habilita el soporte de NetApp para un servicio de archivos de proveedor de cloud. Para obtener soporte técnico relacionado con un servicio de archivos de un proveedor de cloud, su infraestructura o cualquier solución que utilice el servicio, consulte «Obtener ayuda» en la documentación de fábrica de cargas de trabajo para ese producto.</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs y comunidad</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">Comunidad de NetApp</block>
+  <block id="abd0fe91ce589ecf3c7bad0543ccad16" category="sidebar">Blogs de BlueXP</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Seminarios web sobre el cloud</block>
 </blocks>
