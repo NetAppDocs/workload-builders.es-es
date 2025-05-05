@@ -14,10 +14,10 @@ summary: Asegúrese de que la fábrica de cargas de trabajo y AWS se han configu
 Asegúrese de que la fábrica de cargas de trabajo y AWS se han configurado correctamente antes de empezar a utilizar la fábrica de cargas de trabajo de BlueXP  para creadores. Esto incluye tener sus credenciales de inicio de sesión de AWS, un sistema de archivos FSx para ONTAP implementado y mucho más.
 
 Inicio de sesión y cuenta de fábrica de carga de trabajo:: Deberá https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["configure una cuenta con fábrica de cargas de trabajo"^] iniciar sesión con uno de los https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
-Credenciales y permisos de AWS:: Es necesario agregar credenciales de AWS a la fábrica de cargas de trabajo con permisos Automate, lo que significa que utilizará la fábrica de cargas de trabajo en el modo _Automate_ para Builders.
+Credenciales y permisos de AWS:: Debe agregar credenciales de AWS a la fábrica de cargas de trabajo con permisos de lectura/escritura, lo que significa que utilizará la fábrica de cargas de trabajo en el modo _Read/Write_ para Builders.
 
 
-Los permisos de modo _Basic_ y modo _Read_ no se admiten en este momento. https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Aprenda a añadir credenciales de AWS a la fábrica de cargas de trabajo"^]
+Los permisos de modo _Basic_ y modo _Read-Only_ no se admiten en este momento. https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Aprenda a añadir credenciales de AWS a la fábrica de cargas de trabajo"^]
 
 FSX para sistema de archivos ONTAP:: Necesita un mínimo de un sistema de archivos FSx para ONTAP:
 +
