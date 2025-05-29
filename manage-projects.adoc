@@ -93,14 +93,6 @@ Puede editar la configuración de un proyecto en cualquier momento.
 . Seleccione *Guardar*.
 
 
-.Pasos
-. Inicie sesión en la fábrica de carga de trabajo mediante una de las opciones link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiencias de consola"^].
-. En el mosaico Builders, selecciona *Ir a la página Proyectos*.
-. En la página Proyectos, seleccione image:icon-action.png["el botón de opción"] el proyecto que desea realizar la instantánea.
-. En el menú que aparece, seleccione *Crear una instantánea*.
-. En el cuadro de diálogo *Crear instantánea*, elija un nombre para la instantánea y seleccione *Crear*.
-
-
 
 
 == Ver los espacios de trabajo de un proyecto

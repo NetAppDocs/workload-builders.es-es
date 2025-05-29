@@ -353,4 +353,10 @@
   <block id="98c15024a0a6463353585181f922a6d8" category="list-text">Debe agregar credenciales de AWS a la fábrica de cargas de trabajo con permisos de lectura/escritura, lo que significa que utilizará la fábrica de cargas de trabajo en el modo _Read/Write_ para Builders.</block>
   <block id="19e72e9857cc00ad57d29107d2e5f1fb" category="paragraph">Los permisos de modo _Basic_ y modo _Read-Only_ no se admiten en este momento. <block ref="ced1a4827b1ea3c1da0273c3d73fdd46" category="inline-link-rx"></block></block>
   <block id="dac96c84baa92faab0eb342df5283a1b" category="section-title">4 de mayo de 2025</block>
+  <block id="d585a12eb322284819964d656e33d798" category="summary">Proteja sus proyectos de Builders mediante la creación de instantáneas y clones.</block>
+  <block id="69b33a7dae155d4aeca7bb5e1abb1cce" category="doc">Proteja la fábrica de cargas de trabajo de BlueXP  para los proyectos de Builders</block>
+  <block id="0deec7e6c3ce920634e346d6726ee3dc" category="paragraph">Proteja sus proyectos de Builders mediante la creación de instantáneas a petición directamente desde la fábrica de cargas de trabajo. Las instantáneas de un proyecto se almacenan en el sistema de archivos que se asoció con el proyecto cuando se creó.</block>
+  <block id="1c88041df602722b072eab90c31d79ca" category="section-title">Crear una instantánea de un proyecto</block>
+  <block id="1370537941b9a464462bf9a14972eee6" category="paragraph">Puede crear una instantánea de un proyecto siguiendo estos pasos.</block>
+  <block id="a0f77c725888fef07f815b55549ad747" category="sidebar">Proteja los proyectos</block>
 </blocks>
