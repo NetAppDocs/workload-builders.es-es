@@ -50,7 +50,7 @@ Cuando utiliza Builders, crea un proyecto y asigna un volumen que representa el 
 
 == Modos operativos en fábrica de cargas de trabajo
 
-Tres modos operativos diferentes - _BASIC_, _READ_ y _AUTOMATIC_ - ofrecen opciones flexibles para la implementación dentro y fuera de la fábrica de cargas de trabajo. Obtenga un valor inmediato en el modo de confianza cero en _BASIC_ con fragmentos de código para su uso fuera de la fábrica de cargas de trabajo. Obtenga valor incremental con confianza incremental en los modos _READ_ y _AUTOMATIC_.
+Tres modos operativos diferentes (básico, de solo lectura y de lectura/escritura) ofrecen opciones flexibles para la implementación dentro y fuera de la fábrica de cargas de trabajo. Obtenga un valor inmediato en el modo de confianza cero en _BASIC_ con fragmentos de código para su uso fuera de la fábrica de cargas de trabajo. Obtenga valor incremental con confianza incremental en los modos de solo lectura y de lectura/escritura.
 
 Más información sobre link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["modos operativos en fábrica de cargas de trabajo"^].
 
